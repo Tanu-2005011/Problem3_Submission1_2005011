@@ -5,3 +5,6 @@ while(f<=10000)
 input = sin(f*t*h2r);
 f = f + 2000;
 end
+t=t';
+input=input';
+plot(t,yout)
